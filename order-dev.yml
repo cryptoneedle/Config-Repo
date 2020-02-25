@@ -17,6 +17,9 @@ spring:
 server:
   port: 8764
 
+env:
+  dev
+
 # wx-restaurant-productor: #user 自定义负载均衡策略
   # ribbon:
     # NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
