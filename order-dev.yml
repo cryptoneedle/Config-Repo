@@ -1,0 +1,23 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: wf1994429
+    url: jdbc:mysql://localhost:3306/springcloud_sell?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+  jpa:
+    show-sql: true #方便调试
+
+server:
+  port: 8764
+
+# wx-restaurant-productor: #user 自定义负载均衡策略
+  # ribbon:
+    # NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+    # NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #修改负载均衡策略
