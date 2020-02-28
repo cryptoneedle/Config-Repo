@@ -13,7 +13,7 @@ server:
   port: 8764
 
 env:
-  test
+  test1996
 
 author:
   name: ruoli
