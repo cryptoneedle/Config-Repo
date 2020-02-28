@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: wf1994429
-    url: jdbc:mysql://localhost:3306/springcloud_sell?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3306/springcloud_sell?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
   jpa:
     show-sql: true #方便调试
 
