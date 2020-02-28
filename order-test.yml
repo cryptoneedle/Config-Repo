@@ -13,7 +13,7 @@ server:
   port: 8764
 
 env:
-  test
+  test1
 
 # wx-restaurant-productor: #user 自定义负载均衡策略
   # ribbon:
