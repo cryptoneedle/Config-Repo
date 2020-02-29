@@ -21,7 +21,7 @@ author:
 
 demo:
   app:
-    apiUrl: "http://ruoli.com/000000011"
+    apiUrl: ""
 # wx-restaurant-productor: #user 自定义负载均衡策略
   # ribbon:
     # NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
