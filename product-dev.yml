@@ -6,3 +6,8 @@ spring:
     url: jdbc:mysql://localhost:3306/springcloud_sell?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
   jpa:
     show-sql: true #方便调试
+  rabbitmq:
+    host: 192.168.1.101
+    port: 5672
+    username: ruoli
+    password: wf1994429    
