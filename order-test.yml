@@ -19,6 +19,9 @@ author:
   name: ruoli
   birthYear: 1995
 
+demo:
+  app:
+    apiUrl = "http://ruoli.com/00000001"
 # wx-restaurant-productor: #user 自定义负载均衡策略
   # ribbon:
     # NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
