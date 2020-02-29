@@ -9,8 +9,7 @@ spring:
   jpa:
     show-sql: true #方便调试
 
-server:
-  port: 8764
+
 
 env:
   dev
