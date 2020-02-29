@@ -13,11 +13,11 @@ server:
   port: 8764
 
 env:
-  test1997
+  test1998
 
 author:
   name: ruoli
-  birthYear: 1997
+  birthYear: 1998
 
 # wx-restaurant-productor: #user 自定义负载均衡策略
   # ribbon:
