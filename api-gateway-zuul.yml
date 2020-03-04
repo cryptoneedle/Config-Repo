@@ -1,0 +1,13 @@
+zuul:
+  routes:
+    #/myProduct/product/list -> /product/product/list
+    myRoute: #自定义路由
+      path: /myProduct/** #路由的URL地址
+      serviceId: product #路由到哪个服务
+      sensitiveHeaders: #敏感头过滤（开启 Cookie 传递）
+    #简洁写法
+    product: /myProduct2/**
+  #禁止访问某个接口 ignore
+  ignored-patterns:
+    - /myProduct/product/list
+    - /product/product/list
