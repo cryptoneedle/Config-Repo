@@ -1,4 +1,5 @@
 zuul:
+  sensitive-headers: #全局敏感头过滤
   routes:
     #/myProduct/product/list -> /product/product/list
     myRoute: #自定义路由
